@@ -1,0 +1,29 @@
+.Header {
+    display: flex;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-width: 100%;
+    
+}
+
+.Title {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.listItems > ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 80 important !important;
+}
+ ul > li {
+     margin-left: 80px;
+     cursor: pointer;
+ }
+
+.createPoll {
+    border-radius: 40px !important;
+    
+}
