@@ -8,22 +8,30 @@
 
 .Title {
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 0;
     margin-right: 20px;
+    padding-top: 10px;
 }
 
 .listItems > ul {
     display: flex;
     list-style: none;
     font-size: 20px;
-    font-weight: 80 important !important;
+    margin-left: 50px;
+    
 }
  ul > li {
-     margin-left: 80px;
+     margin-left: 20px;
      cursor: pointer;
+     font-weight: 80 important !important;
+     padding-top: 10px;
  }
 
 .createPoll {
     border-radius: 40px !important;
     
+}
+
+.ProfileIcon {
+    padding-top: 23px;
 }
