@@ -4,6 +4,7 @@
     border: 1px solid black;
     border-width: 100%;
     
+    
 }
 
 .Title {
@@ -33,5 +34,30 @@
 }
 
 .ProfileIcon {
-    padding-top: 23px;
+    padding-top: 5px;
+}
+
+
+@media only screen and (min-width: 768px){
+ 
+
+    .Title {
+        margin-right: 90px;
+        padding-top: 10px;
+    }
+
+    
+.listItems > ul {
+    margin-left: 280%;
+    
+}
+
+ul > li {
+    padding-top: 10px;
+}
+.ProfileIcon {
+    padding-top: 13%;
+}
+
+
 }
