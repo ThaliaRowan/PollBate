@@ -1,15 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 .Header {
     display: flex;
-    padding-left: 20px;
-    border: 1px solid black;
-    border-width: 100%;
-    
-    
+   border: 1px solid black;    
 }
 
 .Title {
     font-size: 20px;
-    margin-left: 0;
+    margin-left: 30px;
     margin-right: 20px;
     padding-top: 10px;
 }
@@ -18,14 +18,14 @@
     display: flex;
     list-style: none;
     font-size: 20px;
-    margin-left: 50px;
-    
+   
+      
 }
  ul > li {
-     margin-left: 20px;
      cursor: pointer;
      font-weight: 80 important !important;
      padding-top: 10px;
+     padding-left: 15px;
  }
 
 .createPoll {
@@ -38,26 +38,23 @@
 }
 
 
-@media only screen and (min-width: 768px){
- 
 
-    .Title {
-        margin-right: 90px;
-        padding-top: 10px;
+@media (min-width: 700px) {
+    .listItems > ul {
+        margin-left: 450px;
     }
-
-    
-.listItems > ul {
-    margin-left: 280%;
-    
-}
-
-ul > li {
-    padding-top: 10px;
-}
-.ProfileIcon {
-    padding-top: 13%;
 }
 
 
+@media (min-width: 992px) {
+    .listItems > ul {
+        margin-left: 900px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .listItems > ul {
+        margin-left: 1010px;
+    }
 }
